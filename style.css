@@ -182,9 +182,36 @@
   line-height: 43px;
   letter-spacing: 0%;
   text-align: center;
-  padding-bottom: 24px;
+  padding-bottom: 30px;
 }
 
+#about p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 70px;
+}
 
+#about h4 {
+  opacity: 0.7;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 78px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#about .social-icon img {
+  justify-content: sp;
+}
 
 /* Third Section End */
