@@ -156,3 +156,15 @@
   padding-top: 20px;
 }
 /* Second Section End */
+
+/* Third Section Start */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about .image img {
+  width: 643px;
+}
+/* Third Section End */
