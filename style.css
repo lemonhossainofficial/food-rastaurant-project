@@ -11,7 +11,7 @@
       rgb(16, 16, 16) -19.5%,
       rgba(16, 16, 16, 0) 100%
     ),
-    url("../assets/hero-bg.png");
+    url("/assets/hero-bg.png");
   height: 919px;
   background-repeat: no-repeat;
   background-position: center;
