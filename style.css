@@ -206,12 +206,16 @@
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 78px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
 }
 
-#about .social-icon img {
-  justify-content: sp;
+#about .social-icon .fb,
+.ig,
+.x,
+.p {
+  padding: 0 44px;
 }
 
 /* Third Section End */
