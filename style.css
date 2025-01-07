@@ -115,7 +115,7 @@
 }
 
 #card-box .card {
-  max-width: 284px;
+  width: 284px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,16 +210,18 @@
   text-align: center;
   padding: 20px 0;
   margin-bottom: 78px;
-  box-sizing: border-box;
   border-bottom: 1px solid rgba(16, 16, 16, 0.2);
   border-top: 1px solid rgba(16, 16, 16, 0.2);
 }
 
-#about .social-icon .fb,
+#about .social-icon {
+  text-align: center;
+}
+
+#about .fb,
 .ig,
 .x,
 .p {
-  align-items: start;
+  padding-right: 29px;
 }
-
 /* Third Section End */
