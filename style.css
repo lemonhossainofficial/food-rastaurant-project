@@ -83,6 +83,7 @@
 #card-box {
   padding: 100px;
 }
+
 #card-box .card-conatiner {
   width: 884px;
   display: flex;
@@ -225,3 +226,51 @@
   padding-right: 29px;
 }
 /* Third Section End */
+
+/* Fore Section Start */
+
+.social {
+  width: 100%;
+  background: url(/assets/social-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 449px;
+  opacity: 0.5;
+}
+
+.social h1 {
+  color: rgb(0, 0, 0);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* Fore Section End */
+.background {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.background::before {
+  background-image: url("/assets/social-bg.png");
+  background-size: cover;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.background p {
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  isolation: isolate;
+}
